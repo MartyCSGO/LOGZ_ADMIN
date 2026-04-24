@@ -2,7 +2,7 @@
 
 Private binary administration plugin for **Counter-Strike 2** powered by **CounterStrikeSharp**.
 
-LOGZ_Admin is built for communities that want a cleaner, more organized, and more flexible admin system with custom ranks, formatted chat, permission handling, and MySQL-backed moderation support.
+LOGZ_Admin is built for communities that want a cleaner, more organized, and more flexible admin system with custom ranks, formatted chat, permission handling, moderation tools, and MySQL-backed ban support.
 
 ---
 
@@ -15,6 +15,7 @@ LOGZ_Admin is built for communities that want a cleaner, more organized, and mor
 - Admin priority support
 - MySQL ban integration
 - JSON-based configuration
+- Online version check
 - Lightweight and practical for live servers
 
 ---
@@ -77,26 +78,54 @@ Below are the main commands available in LOGZ_Admin.
 - `css_logzadmin_reload`  
   Reloads plugin configuration files.
 
+- `css_logz_admins`
+- `css_admins`  
+  Shows online admins and their configured groups.
+
 ### Moderation Commands
 - `css_logz_kick`
 - `css_kick`  
   Kick a player from the server.
 
-- `css_logz_slay`
-- `css_slay`  
-  Slay a player.
-
 - `css_logz_ban`
 - `css_ban`  
-  Ban a player.
+  Ban a player from the server.
 
 - `css_logz_unban`
 - `css_unban`  
-  Remove a ban.
+  Remove an active ban by SteamID64.
+
+- `css_logz_slay`
+- `css_slay`  
+  Slay one or more players.
 
 - `css_logz_map`
 - `css_map`  
   Change the current map.
+
+- `css_logz_respawn`
+- `css_respawn`  
+  Respawn one or more players.
+
+- `css_logz_hp`
+- `css_hp`  
+  Set HP for one or more players.
+
+- `css_logz_armor`
+- `css_armor`  
+  Set armor for one or more players.
+
+- `css_logz_rr`
+- `css_rr`  
+  Restart the round or match.
+
+- `css_logz_spec`
+- `css_spec`  
+  Move one or more players to spectator.
+
+- `css_logz_setteam`
+- `css_setteam`  
+  Move one or more players to T / CT / SPEC.
 
 ### Notes
 - Some commands may require specific permissions or admin groups.
