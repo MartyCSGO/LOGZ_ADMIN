@@ -66,6 +66,93 @@ Make sure your database credentials and server settings are correctly configured
 
 ---
 
+## 💬 Commands
+
+Below are the main commands available in LOGZ_Admin.
+
+### Admin Info
+- `css_logzadmin_whoami`  
+  Shows your current admin group, permissions, and basic information.
+
+- `css_logzadmin_reload`  
+  Reloads plugin configuration files.
+
+### Moderation Commands
+- `css_logz_kick`
+- `css_kick`  
+  Kick a player from the server.
+
+- `css_logz_slay`
+- `css_slay`  
+  Slay a player.
+
+- `css_logz_ban`
+- `css_ban`  
+  Ban a player.
+
+- `css_logz_unban`
+- `css_unban`  
+  Remove a ban.
+
+- `css_logz_map`
+- `css_map`  
+  Change the current map.
+
+### Notes
+- Some commands may require specific permissions or admin groups.
+- Command availability depends on your configuration.
+- Some aliases may behave the same and are included for flexibility.
+
+---
+
+## 👥 Admin Groups
+
+The plugin supports configurable admin groups such as:
+
+- Founder
+- Owner
+- Co-Owner
+- Administrator
+- Moderator
+- Helper
+- VIP
+- Custom groups defined by your server
+
+Each group can have:
+- prefix
+- chat color
+- priority
+- permissions
+- formatting rules
+
+---
+
+## 🎨 Chat and Rank Formatting
+
+LOGZ_Admin supports:
+- colored prefixes
+- custom rank tags
+- admin name formatting
+- chat identity styling
+- permission-based display logic
+
+This allows each server to create its own administration style and hierarchy.
+
+---
+
+## 🗄 MySQL Integration
+
+The plugin supports MySQL for moderation-related systems such as bans.
+
+Examples of usage:
+- saving ban entries
+- loading moderation data
+- persistent punishment storage
+
+Make sure your MySQL credentials are valid before running the plugin on a live server.
+
+---
+
 ## 🔄 Version Check
 
 The plugin includes a version check system and can display messages such as:
