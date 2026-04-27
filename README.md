@@ -42,6 +42,10 @@ Before using LOGZ_Admin, make sure your server has:
 
 ---
 
+## Required / Recommended Plugins
+For full functionality, we recommend installing the following plugin as well:
+- [LOGZ_AdminMenu](https://github.com/MartyCSGO/LOGZ_AdminMenu) | Recommended | Meniu rapid pentru comenzile din LOGZ_Admin |
+
 ## 📥 Installation
 
 1. Download the latest release ZIP
